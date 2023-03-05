@@ -1,4 +1,9 @@
 import React from 'react';
+import planImg1 from "../assets/img/plan/plan_img1.jpg";
+import planImg2 from "../assets/img/plan/plan_img2.jpg";
+import planImg3 from "../assets/img/plan/plan_img3.jpg";
+import planImg4 from "../assets/img/plan/plan_img4.jpg";
+import planImg5 from "../assets/img/plan/plan_img5.jpg";
 
 const Rooms = () => {
   return (
@@ -14,17 +19,17 @@ const Rooms = () => {
       <div className='grid grid-cols-2 col-span-2 gap-2'>
         <img
         className='object-cover w-full h-full'
-          src='https://images.unsplash.com/photo-1602002418082-a4443e081dd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80'
+          src={planImg1}
           alt='/'
         />
         <img
         className='row-span-2 object-cover w-full h-full'
-          src='https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
+          src={planImg1}
           alt='/'
         />
         <img
         className='object-cover w-full h-full'
-          src='https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
+          src={planImg1}
           alt='/'
         />
       </div>
