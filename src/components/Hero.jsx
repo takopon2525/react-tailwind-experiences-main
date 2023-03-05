@@ -9,18 +9,17 @@ const Hero = () => {
         src={bannerImg}
         alt="/"
       />
-      <div className="bg-black/30 absolute top-0 left-0 w-full h-screen" />
-      <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
+      {/* ↓画面に背景色を掛ける */}
+      {/* <div className="bg-black/30 absolute top-0 left-0 w-full h-screen" /> */}
+      <div className="absolute top-32 w-full h-full flex flex-col justify-center text-white">
         <div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
-          <p>All Inclusive</p>
           <h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
-            Private Beaches & Getaways
+            相撲部で掴む熱い4年間
           </h1>
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut quis
-            est, id consequuntur sequi ipsum vitae sit non exercitationem.
+            一緒に新しい挑戦、思い出、そして仲間を手に入れよう！
           </p>
-          <button className="bg-white text-black ">Reserve Now</button>
+          <button className="bg-white text-black font-bold underline">新歓ぺージへ</button>
         </div>
       </div>
     </div>
